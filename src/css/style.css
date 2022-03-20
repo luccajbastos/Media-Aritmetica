@@ -148,3 +148,12 @@
     background-color: rgb(167, 167, 167);
     border-color: rgb(167, 167, 167);
 }
+
+/* FOOTER */
+
+footer {
+    position:absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
