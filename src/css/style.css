@@ -1,0 +1,150 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+.container {
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadro--erro {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+/* BARRA DE NAVEGAÇÃO */
+.nav--barra{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    box-shadow: 0px 5px 10px black;
+    background-color: #282828;
+    transition: 1200ms;
+}
+.nav--barra .nav--nome{
+    font-size:large;
+    font-weight: 300;
+    color: #fff;
+}
+.nav--barra .nav--botoes {
+    display: flex;
+    flex-direction: row;
+}
+.nav--barra #github {
+    height: 30px;
+    border: 1px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 300ms;
+}
+.nav--barra #github:hover {
+
+    opacity: 0.5;
+}
+
+/* QUADRO QUANTIDADE */
+.quadro {
+    
+    width: 800px;
+    height: auto;
+    border: 2px solid rgb(83, 83, 83);
+    box-shadow: 5px 5px 5px rgb(83, 83, 83);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #282828;
+}
+.quadro .quadro--titulo {
+    margin: 15px;
+    font-size: large;
+    color: #fff;
+}
+.quadro .quadro--input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quadro .quadro--input #numero {
+    width: 666px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.quadro .quadro--input #submit {
+    margin: 15px;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+    transition: 300ms;
+    font-size: 16px;
+}
+.quadro .quadro--input #submit:hover {
+    transition: 300ms;
+    color: rgb(83, 83, 83);
+    background-color: rgb(167, 167, 167);
+    border-color: rgb(167, 167, 167);
+}
+
+/* QUADRO RESULTADO */
+.txts {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+}
+.quadro--resultado .resultado--inputs {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.quadro--resultado .resultado--inputs #resultado {
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.quadro--resultado .resultado--inputs #voltar {
+    margin-top: 15px;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+    transition: 300ms;
+    font-size: 16px;
+}
+.quadro--resultado .resultado--inputs #voltar:hover {
+    transition: 300ms;
+    color: rgb(83, 83, 83);
+    background-color: rgb(167, 167, 167);
+    border-color: rgb(167, 167, 167);
+}

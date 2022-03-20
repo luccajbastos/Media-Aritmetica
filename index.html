@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Média Aritmética </title>
+
+    <link rel="stylesheet" href="src/css/style.css"/>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav--barra">
+            <div class="nav--nome">
+                    <div class="nome">Calculadora de Média Aritmética</div>
+            </div>
+            <div class="nav--botoes">
+                <a href="https://github.com/luccajimenez" target="_blank"><img id="github" src="src/images/25231.png"></a>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    <section class="quadro--quantidade">
+        <div class="quadro">
+            <div class="quadro--erro">
+                <div class="erro"></div>
+            </div>
+            <div class="quadro--titulo">
+                <div class="titulo">Digite os números separados por virgula.</div>
+            </div>
+            <div class="quadro--input">
+                <input type="text" id="numero" placeholder="Ex: 10, 10, 10, 10">
+                <input type="submit" id="submit" onclick="proxQuantidade();" value="Continuar">
+            </div>
+        </div>
+    </section>
+
+    <section class="quadro--resultado">
+        <div class="quadro">
+            <div class="txts">
+                <div class="txt--resultado">Média:</div>
+            </div>
+            <div class="quadro--resultado">
+                <div class="resultado--inputs">
+                    <input type="text" id="resultado" disabled>
+                    <input type="button" id="voltar" onclick="document.location.reload(true)" value="Voltar">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
